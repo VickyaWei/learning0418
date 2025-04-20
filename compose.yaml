@@ -1,3 +1,4 @@
+version: '3'
 services:
   postgres:
     image: postgres
@@ -11,5 +12,41 @@ services:
     volumes:
       - postgres-data:/var/lib/postgresql/data
 
+  redis:
+    image: redis:latest
+    container_name: redis-cache
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.10
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra-db
+    ports:
+      - "9042:9042"
+    environment:
+      - CASSANDRA_CLUSTER_NAME=MyCluster
+      - CASSANDRA_ENDPOINT_SNITCH=SimpleSnitch
+      - CASSANDRA_DC=datacenter1
+    volumes:
+      - cassandra-data:/var/lib/cassandra
+
 volumes:
   postgres-data:
+  redis-data:
+  elasticsearch-data:
+  cassandra-data:

@@ -1,5 +1,8 @@
 package com.learning.copy;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author vickyaa
  * @date 4/18/25
@@ -10,6 +13,7 @@ public class DeepCopyPerson implements Cloneable {
   String name;
   int age;
   DeepCopyAddress deepcopyAddress;
+  List<Contact> contacts;
 
   DeepCopyPerson(String name, int age, DeepCopyAddress deepCopyAddress) {
     this.name = name;
@@ -17,12 +21,26 @@ public class DeepCopyPerson implements Cloneable {
     this.deepcopyAddress = deepCopyAddress;
   }
 
+  public List<Contact> getContacts() throws CloneNotSupportedException {
+    List<Contact> contacts = new ArrayList<>();
+    for(Contact c : this.contacts){
+      contacts.add(c.clone());
+    }
+    return contacts;
+  }
+
   @Override
   protected Object clone() throws CloneNotSupportedException {
     DeepCopyPerson cloned = (DeepCopyPerson) super.clone();
+    cloned.contacts = new ArrayList<>();
+    for(Contact contact : this.contacts){
+      cloned.contacts.add(contact.clone());
+    }
     cloned.deepcopyAddress = (DeepCopyAddress) this.deepcopyAddress.clone();
     return cloned;
   }
+
+
 
   @Override
   public String toString() {
