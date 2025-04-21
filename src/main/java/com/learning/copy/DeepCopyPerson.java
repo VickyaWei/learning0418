@@ -19,6 +19,7 @@ public class DeepCopyPerson implements Cloneable {
     this.name = name;
     this.age = age;
     this.deepcopyAddress = deepCopyAddress;
+    this.contacts = new ArrayList<>();
   }
 
   public List<Contact> getContacts() throws CloneNotSupportedException {
@@ -40,6 +41,9 @@ public class DeepCopyPerson implements Cloneable {
     return cloned;
   }
 
+  public void addContact(Contact contact) {
+    this.contacts.add(contact);
+  }
 
 
   @Override
@@ -48,6 +52,7 @@ public class DeepCopyPerson implements Cloneable {
         "name='" + name + '\'' +
         ", age=" + age +
         ", deepcopyAddress=" + deepcopyAddress.city +
+        ", contacts=" + contacts +
         '}';
   }
 
@@ -55,12 +60,14 @@ public class DeepCopyPerson implements Cloneable {
     try {
       DeepCopyAddress deepCopyAddress = new DeepCopyAddress("New York");
       DeepCopyPerson original = new DeepCopyPerson("Alice", 30, deepCopyAddress);
+      original.addContact(new Contact("Bob", "bob@example.com"));
       DeepCopyPerson cloned = (DeepCopyPerson) original.clone();
       System.out.println("Original: " + original);
       System.out.println("Cloned: " + cloned);
 
       System.out.println("-------------");
       cloned.deepcopyAddress.city = "Los Angeles";
+      cloned.contacts.get(0).setEmail("Alice@exmaple.com");
       System.out.println("Original: " + original);
       System.out.println("Cloned: " + cloned);
     } catch (CloneNotSupportedException e) {

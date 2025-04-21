@@ -1,4 +1,4 @@
-package com.learning.aop.model;
+package com.learning.singleton;
 
 /**
  * @author vickyaa

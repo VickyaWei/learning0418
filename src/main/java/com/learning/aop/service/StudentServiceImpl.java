@@ -1,6 +1,6 @@
 package com.learning.aop.service;
 
-import com.learning.springaop.model.Student;
+import com.learning.aop.model.Student;
 import org.springframework.stereotype.Service;
 
 /**

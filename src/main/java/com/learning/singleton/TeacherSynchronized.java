@@ -1,4 +1,4 @@
-package com.learning.aop.model;
+package com.learning.singleton;
 
 /**
  * @author vickyaa
@@ -10,7 +10,7 @@ public class TeacherSynchronized {
   private String lastName;
   private String firstName;
 
-  private static TeacherSynchronized instance;
+  private static volatile TeacherSynchronized instance;
 
   private TeacherSynchronized() {
   }

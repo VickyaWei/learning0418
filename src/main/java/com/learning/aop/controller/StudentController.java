@@ -1,7 +1,7 @@
 package com.learning.aop.controller;
 
-import com.learning.springaop.model.Student;
-import com.learning.springaop.service.StudentService;
+import com.learning.aop.model.Student;
+import com.learning.aop.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,14 +1,13 @@
-version: '3'
 services:
   postgres:
     image: postgres
     container_name: database-learning
     environment:
-      POSTGRES_DB: springapp
+      POSTGRES_DB: database-learning
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: test123
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - postgres-data:/var/lib/postgresql/data
 
@@ -45,8 +44,18 @@ services:
     volumes:
       - cassandra-data:/var/lib/cassandra
 
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+
 volumes:
   postgres-data:
   redis-data:
   elasticsearch-data:
   cassandra-data:
+  mongodb_data:

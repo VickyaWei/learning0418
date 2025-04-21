@@ -1,6 +1,7 @@
 package com.learning.copy;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author vickyaa
@@ -10,9 +11,11 @@ import java.util.ArrayList;
 public final class ImmutablePerson {
   private final String name;
   private final int age;
-  private final ArrayList<String> hobbies;
+  // when define a data structure, always use interface
+  private final List<String> hobbies;
 
-  public ImmutablePerson(String name, int age, ArrayList<String> hobbies) {
+
+  public ImmutablePerson(String name, int age, List<String> hobbies) {
     this.name = name;
     this.age = age;
     this.hobbies = new ArrayList<>(hobbies);
@@ -26,7 +29,7 @@ public final class ImmutablePerson {
     return age;
   }
 
-  public ArrayList<String> getHobbies() {
+  public List<String> getHobbies() {
     return new ArrayList<>(hobbies);
   }
 }

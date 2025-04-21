@@ -25,7 +25,7 @@ public class StudentServiceAspect {
 
     private static final Logger logger = Logger.getLogger(StudentServiceAspect.class.getName());
 
-    @Pointcut("execution(* com.learning.springaop.service.StudentService.*(..)) ")
+    @Pointcut("execution(* com.learning.aop.service.StudentService.*(..)) ")
     private void anyStudentService() {}
 
     @Before("anyStudentService() && args(firstName, lastName)")
