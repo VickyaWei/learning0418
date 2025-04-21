@@ -13,24 +13,12 @@ public class TeacherEager {
   private String firstName;
 
   private static TeacherEager instance = new TeacherEager();
-  // inner class
-  // stack heap method area
-  //double check locking
+
   private TeacherEager() {}
 
   private static TeacherEager getInstance() {
     return instance;
   }
-
-//  private static final TeacherEager instance = new TeacherEager();
-//
-//  private TeacherEager() {
-//
-//  }
-//
-//  public static TeacherEager getInstance() {
-//    return instance;
-//  }
 
   public String getLastName() {
     return lastName;
