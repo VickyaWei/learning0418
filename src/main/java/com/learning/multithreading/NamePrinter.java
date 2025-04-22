@@ -15,21 +15,18 @@ public class NamePrinter {
 
 
   public static void main(String[] args) {
-    Thread oddThread = new Thread(new Runnable() {
-      @Override
-      public void run() {
-        for(int i = 0; i < name.length(); i+=2){
-          synchronized (lock){
-            System.out.print(name.charAt(i) + "\n" );
-            try{
-              lock.notify();
-              Thread.sleep(1000);
-              if(i + 2 < name.length()){
-                lock.wait();
-              }
-            } catch (InterruptedException e) {
-              e.printStackTrace();
+    Thread oddThread = new Thread(() -> {
+      for(int i = 0; i < name.length(); i+=2){
+        synchronized (lock){
+          System.out.print(name.charAt(i) + "\n" );
+          try{
+            lock.notify();
+            Thread.sleep(1000);
+            if(i + 2 < name.length()){
+              lock.wait();
             }
+          } catch (InterruptedException e) {
+            e.printStackTrace();
           }
         }
       }

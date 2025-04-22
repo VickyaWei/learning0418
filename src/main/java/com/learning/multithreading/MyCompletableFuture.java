@@ -18,12 +18,12 @@ public class MyCompletableFuture {
                     new ArrayBlockingQueue<>(10),
                     Executors.defaultThreadFactory(),
                     new ThreadPoolExecutor.AbortPolicy());
+//
+//            CompletableFuture<String> asyncTask = CompletableFuture.supplyAsync(() -> {
+//                return "task completed";
+//            }, poolExecutor).thenCompose().thenApply().thenCombineAsync().exceptionally();
 
-            CompletableFuture<String> asyncTask = CompletableFuture.supplyAsync(() -> {
-                return "task completed";
-            }, poolExecutor);
-
-            System.out.println(asyncTask.get());
+//            System.out.println(asyncTask.get());
         } catch(Exception e) {
 
         }
