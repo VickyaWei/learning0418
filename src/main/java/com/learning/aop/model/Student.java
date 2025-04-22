@@ -1,7 +1,11 @@
 package com.learning.aop.model;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * @author vickyaa
@@ -36,4 +40,26 @@ public final class Student {
   public List<Integer> getScores() {
     return new ArrayList<>(scores);
   }
+
+  public static void main(String[] args) {
+    List<Integer> scores = new LinkedList<>();
+    scores.add(10);
+    scores.add(20);
+    scores.add(30);
+    scores.get(1);
+
+    Set<Student> students = new HashSet<>();
+    students.add(new Student("Vicky", "AA", scores));
+    students.add(new Student("Vicky", "AA", scores));
+    students.add(new Student("1", "1", scores));
+    students.add(new Student("2", "2", scores));
+    System.out.println(students.size());
+
+
+    Set<Student> students2 = new TreeSet<>();
+    Exception e = new Exception("Exception");
+    RuntimeException re = new RuntimeException("RuntimeException", e);
+    e.printStackTrace();
+  }
+
 }
