@@ -1,9 +1,8 @@
 services:
   postgres:
     image: postgres
-    container_name: database-learning
+    container_name: postgres
     environment:
-      POSTGRES_DB: database-learning
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: test123
     ports:
