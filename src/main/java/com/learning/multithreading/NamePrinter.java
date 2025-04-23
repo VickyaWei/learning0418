@@ -15,6 +15,7 @@ public class NamePrinter {
 
   public static void main(String[] args) {
     Thread oddThread = new Thread(() -> {
+
       for (int i = 0; i < name.length(); i += 3) {
         synchronized (lock) {
           while (currentThread != 0) {
@@ -22,7 +23,11 @@ public class NamePrinter {
               lock.wait();
             } catch (Exception e) {
 
+
+
             }
+          } catch (InterruptedException e) {
+            e.printStackTrace();
           }
 
           if (i < name.length()) {
