@@ -1,5 +1,6 @@
 package com.learning.hibernate;
 
+import com.learning.hibernate.model.Student;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

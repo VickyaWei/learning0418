@@ -18,23 +18,19 @@ public class NamePrinter {
 
       for (int i = 0; i < name.length(); i += 3) {
         synchronized (lock) {
-          while (currentThread != 0) {
+          while (currentThread != 1) {
             try {
               lock.wait();
             } catch (Exception e) {
 
-
-
             }
-          } catch (InterruptedException e) {
-            e.printStackTrace();
           }
 
           if (i < name.length()) {
-            System.out.print("thread 1" + name.charAt(i) + "\n");
+            System.out.print("thread 2" + name.charAt(i) + "\n");
           }
 
-          currentThread = 1;
+          currentThread = 2;
 
           try {
             lock.notifyAll();
