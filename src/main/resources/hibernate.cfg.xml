@@ -8,17 +8,38 @@
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/hibernate_learning</property>
     <property name="hibernate.connection.username">postgres</property>
-    <property name="hibernate.connection.password">weixing5shishi</property>
+    <property name="hibernate.connection.password">test123</property>
 
-    <property name="hibernate.hbm2ddl.auto">create</property>
+    <!-- JDBC connection pool settings -->
+    <property name="connection.pool_size">5</property>
 
-    <property name="hibernate.show_sql">true</property>
-
+    <!-- PostgreSQL dialect -->
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-    <property name="hibernate.cache.use_second_level_cache">true</property>
+
+    <!-- Echo all executed SQL to stdout -->
+    <property name="show_sql">true</property>
+    <property name="format_sql">true</property>
+
+    <!-- Disable second-level cache -->
+    <property name="cache.use_second_level_cache">true</property>
+    <property name="cache.use_query_cache">true</property>
     <property name="hibernate.cache.region.factory_class">org.hibernate.cache.jcache.JCacheRegionFactory</property>
     <property name="hibernate.javax.cache.provider">org.ehcache.jsr107.EhcacheCachingProvider</property>
-    <property name="hibernate.cache.use_query_cache">true</property>
+
+    <property name="hbm2ddl.auto">update</property>
+
+    <!-- Statistics and cache logging -->
+    <property name="hibernate.generate_statistics">true</property>
+    <property name="hibernate.cache.use_structured_entries">true</property>
+
+    <!-- Specify which entities to cache -->
+    <mapping class="com.learning.connector.model.Account"/>
+    <mapping class="com.learning.connector.model.TransactionLog"/>
+
+<!--    <property name="hibernate.cache.use_second_level_cache">true</property>-->
+<!--    <property name="hibernate.cache.region.factory_class">org.hibernate.cache.jcache.JCacheRegionFactory</property>-->
+<!--    <property name="hibernate.javax.cache.provider">org.ehcache.jsr107.EhcacheCachingProvider</property>-->
+<!--    <property name="hibernate.cache.use_query_cache">true</property>-->
 
   </session-factory>
 </hibernate-configuration>

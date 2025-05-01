@@ -4,7 +4,8 @@ services:
     container_name: postgres
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: test123
+      POSTGRES_PASSWORD: weixing5shishi
+      POSTGRES_DB: hibernate_learning
     ports:
       - "5432:5432"
     volumes:
