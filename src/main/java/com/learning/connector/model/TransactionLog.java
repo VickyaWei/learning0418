@@ -71,4 +71,5 @@ public class TransactionLog {
   public void setTransactionDate(LocalDate transactionDate) {
     this.transactionDate = transactionDate;
   }
+
 }

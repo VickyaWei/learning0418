@@ -3,6 +3,7 @@ package com.learning.connector.service;
 import com.learning.connector.model.Account;
 import com.learning.connector.model.TransactionLog;
 import com.learning.connector.repository.AccountRepository;
+import com.learning.connector.repository.TransactionHistoryRepository;
 import com.learning.connector.repository.TransactionLogRepository;
 import jakarta.transaction.Transactional;
 import java.math.BigDecimal;
@@ -15,12 +16,15 @@ public class TransactionServiceImpl implements TransactionService {
 
   private final AccountRepository accountRepository;
   private final TransactionLogRepository transactionLogRepository;
+  private final TransactionHistoryService transactionHistoryService;
 
   @Autowired
   public TransactionServiceImpl(AccountRepository accountRepository,
-      TransactionLogRepository transactionLogRepository) {
+      TransactionLogRepository transactionLogRepository,
+      TransactionHistoryService transactionHistoryService) {
     this.accountRepository = accountRepository;
     this.transactionLogRepository = transactionLogRepository;
+    this.transactionHistoryService = transactionHistoryService;
   }
 
 
@@ -49,5 +53,29 @@ public class TransactionServiceImpl implements TransactionService {
     accountRepository.save(fromAccountObj);
     accountRepository.save(toAccountObj);
     transactionLogRepository.save(log);
+
+    try {
+      // For the source account - money going out
+      transactionHistoryService.recordTransaction(
+          fromAccount,
+          "TRANSFER_OUT",
+          amount.negate(),
+          toAccount,
+          "Transfer to " + toAccount
+      );
+
+      // For the destination account - money coming in
+      transactionHistoryService.recordTransaction(
+          toAccount,
+          "TRANSFER_IN",
+          amount,
+          fromAccount,
+          "Transfer from " + fromAccount
+      );
+    } catch (Exception e) {
+      // Log the error but don't fail the transaction
+      System.err.println("Error recording to Cassandra: " + e.getMessage());
+      e.printStackTrace();
+    }
   }
 }

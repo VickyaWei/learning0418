@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class JdbcTransaction {
   private static final String URL = "jdbc:postgresql://localhost:5432/hibernate_learning";
   private static final String USER = "postgres";
-  private static final String PASSWORD = "test123";
+  private static final String PASSWORD = "weixing5shishi";
 
   public void createTablesAndSampleData() {
     Connection connection = null;
