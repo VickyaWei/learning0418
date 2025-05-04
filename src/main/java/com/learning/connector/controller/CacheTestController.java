@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/cache-test")
+// exception handler missing
 public class CacheTestController {
   private final AccountService accountService;
 

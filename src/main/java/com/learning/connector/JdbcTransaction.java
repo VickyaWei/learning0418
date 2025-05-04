@@ -6,7 +6,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
+// # todo: play around with join as well
+// for now what is done is just insertion and read
+// try to play around join, union etc...
 public class JdbcTransaction {
   private static final String URL = "jdbc:postgresql://localhost:5432/hibernate_learning";
   private static final String USER = "postgres";
