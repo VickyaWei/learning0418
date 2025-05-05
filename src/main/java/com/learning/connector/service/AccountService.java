@@ -11,5 +11,4 @@ import java.util.Optional;
 public interface AccountService {
   Account getAccountByNumber(String accountNumber);
   Account updateAccount(Account account);
-  void deleteAccount(String accountNumber);
 }

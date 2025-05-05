@@ -13,34 +13,44 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 @Entity
 @Table(name = "accounts")
-@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
-public class Account implements Serializable {
-
-  private static final long serialVersionUID = 1L;
+public class Account {
 
   @Id
+  @Column(name = "id")
+  private Integer id;
+
   @Column(name = "account_number")
   private String accountNumber;
 
   @Column(name = "balance")
   private BigDecimal balance;
 
-  @Column(name = "customer_id")
-  private String customerId;
+  @Column(name = "customer_profile_id")
+  private String customerProfileId;
+
 
   public Account() {
   }
 
 
-  public Account(String accountNumber, BigDecimal balance, String customerId) {
+  public Account(Integer id, String accountNumber, BigDecimal balance, String customerProfileId) {
+    this.id = id;
     this.accountNumber = accountNumber;
     this.balance = balance;
-    this.customerId = customerId;
+    this.customerProfileId = customerProfileId;
   }
 
   public Account(String accountNumber, BigDecimal balance) {
     this.accountNumber = accountNumber;
     this.balance = balance;
+  }
+
+  public Integer getId() {
+    return id;
+  }
+
+  public void setId(Integer id) {
+    this.id = id;
   }
 
   public String getAccountNumber() {
@@ -59,11 +69,11 @@ public class Account implements Serializable {
     this.balance = balance;
   }
 
-  public String getCustomerId() {
-    return customerId;
+  public String getCustomerProfileId() {
+    return customerProfileId;
   }
 
-  public void setCustomerId(String customerId) {
-    this.customerId = customerId;
+  public void setCustomerProfileId(String customerProfileId) {
+    this.customerProfileId = customerProfileId;
   }
 }

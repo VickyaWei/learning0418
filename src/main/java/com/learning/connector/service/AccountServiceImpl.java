@@ -37,7 +37,7 @@ public class AccountServiceImpl implements AccountService{
   @Override
   public Account getAccountByNumber(String accountNumber) {
     logger.info("Fetching account from database: {}", accountNumber);
-    return accountRepository.findById(accountNumber)
+    return accountRepository.findByAccountNumber(accountNumber)
         .orElseThrow(() -> {
           logger.warn("Account not found: {}", accountNumber);
           return new AccountNotFoundException(accountNumber);
@@ -54,7 +54,7 @@ public class AccountServiceImpl implements AccountService{
 
   @Override
   public Account updateAccount(Account account) {
-    String customerId = account.getCustomerId();
+    String customerId = account.getCustomerProfileId();
     String accountId = account.getAccountNumber();
     String transactionId = "update"; // or generate some unique ID
 
@@ -76,8 +76,4 @@ public class AccountServiceImpl implements AccountService{
     }
   }
 
-  @Override
-  public void deleteAccount(String accountNumber) {
-    accountRepository.deleteById(accountNumber);
-  }
 }

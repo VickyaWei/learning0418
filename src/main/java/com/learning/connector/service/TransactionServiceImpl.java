@@ -32,10 +32,10 @@ public class TransactionServiceImpl implements TransactionService {
   @Transactional
   public void transferMoney(String fromAccount, String toAccount, BigDecimal amount) {
     // 1. Get accounts
-    Account fromAccountObj = accountRepository.findById(fromAccount)
+    Account fromAccountObj = accountRepository.findByAccountNumber(fromAccount)
         .orElseThrow(() -> new RuntimeException("Source account not found: " + fromAccount));
 
-    Account toAccountObj = accountRepository.findById(toAccount)
+    Account toAccountObj = accountRepository.findByAccountNumber(toAccount)
         .orElseThrow(() -> new RuntimeException("Destination account not found: " + toAccount));
 
     // 2. Transfer money

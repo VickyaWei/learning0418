@@ -9,6 +9,7 @@ import java.sql.SQLException;
 // # todo: play around with join as well
 // for now what is done is just insertion and read
 // try to play around join, union etc...
+
 public class JdbcTransaction {
   private static final String URL = "jdbc:postgresql://localhost:5432/hibernate_learning";
   private static final String USER = "postgres";
@@ -30,7 +31,8 @@ public class JdbcTransaction {
           "CREATE TABLE IF NOT EXISTS accounts (" +
               "id SERIAL PRIMARY KEY, " +
               "account_number VARCHAR(20) UNIQUE NOT NULL, " +
-              "balance DECIMAL(10,2) NOT NULL)";
+              "balance DECIMAL(10,2) NOT NULL, " +
+              "customer_profile_id VARCHAR(50))";
 
       stmt = connection.prepareStatement(createAccountsTable);
       stmt.executeUpdate();
@@ -50,30 +52,46 @@ public class JdbcTransaction {
       System.out.println("Tables created successfully");
 
       // Check if sample data already exists
-      String checkSql = "SELECT COUNT(*) FROM accounts WHERE account_number IN (?, ?)";
+      String checkSql = "SELECT COUNT(*) FROM accounts WHERE account_number IN (?, ?, ?)";
       stmt = connection.prepareStatement(checkSql);
       stmt.setString(1, "ACC123");
       stmt.setString(2, "ACC456");
+      stmt.setString(3, "ACC789");
 
       ResultSet rs = stmt.executeQuery();
       rs.next();
       int count = rs.getInt(1);
 
       if (count == 0) {
-        // Insert sample accounts
-        String insertAccount1 = "INSERT INTO accounts (account_number, balance) VALUES (?, ?)";
+        // Create a customer ID - this should match the ID used in MongoDB CustomerProfile
+        String customerProfileId = "CUST001";
+
+        // Insert first account for the customer
+        String insertAccount1 = "INSERT INTO accounts (account_number, balance, customer_profile_id) VALUES (?, ?, ?)";
         stmt = connection.prepareStatement(insertAccount1);
         stmt.setString(1, "ACC123");
         stmt.setBigDecimal(2, new BigDecimal("1000.00"));
+        stmt.setString(3, customerProfileId);
         stmt.executeUpdate();
 
-        String insertAccount2 = "INSERT INTO accounts (account_number, balance) VALUES (?, ?)";
+        // Insert second account for the same customer
+        String insertAccount2 = "INSERT INTO accounts (account_number, balance, customer_profile_id) VALUES (?, ?, ?)";
         stmt = connection.prepareStatement(insertAccount2);
-        stmt.setString(1, "ACC456");
+        stmt.setString(2, "ACC456");
         stmt.setBigDecimal(2, new BigDecimal("500.00"));
+        stmt.setString(3, customerProfileId);
+        stmt.executeUpdate();
+
+        // Insert another account for a different customer
+        String insertAccount3 = "INSERT INTO accounts (account_number, balance, customer_profile_id) VALUES (?, ?, ?)";
+        stmt = connection.prepareStatement(insertAccount3);
+        stmt.setString(1, "ACC789");
+        stmt.setBigDecimal(2, new BigDecimal("750.00"));
+        stmt.setString(3, "CUST002");
         stmt.executeUpdate();
 
         System.out.println("Sample data inserted successfully");
+        System.out.println("Customer with ID " + customerProfileId + " has two accounts: ACC123 and ACC456");
       } else {
         System.out.println("Sample data already exists");
       }
@@ -83,8 +101,12 @@ public class JdbcTransaction {
       e.printStackTrace();
     } finally {
       try {
-        if (stmt != null) stmt.close();
-        if (connection != null) connection.close();
+        if (stmt != null) {
+          stmt.close();
+        }
+        if (connection != null) {
+          connection.close();
+        }
       } catch (SQLException e) {
         e.printStackTrace();
       }
