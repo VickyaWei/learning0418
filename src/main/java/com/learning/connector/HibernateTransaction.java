@@ -39,26 +39,24 @@ public class HibernateTransaction {
 
 
   public static void createTablesAndSampleData(SessionFactory sessionFactory) {
-    Session session = sessionFactory.openSession();
     Transaction transaction = null;
 
-    try {
+    try (Session session = sessionFactory.openSession()) {
       transaction = session.beginTransaction();
 
       // Check if sample data already exists
       Account account1 = session.get(Account.class, "ACC123");
       Account account2 = session.get(Account.class, "ACC456");
 
-      // Create sample data if needed
       if (account1 == null) {
         account1 = new Account("ACC123", new BigDecimal("1000.00"));
-        session.save(account1);
+        session.persist(account1);  // use persist instead of save if using JPA
         System.out.println("Created account ACC123");
       }
 
       if (account2 == null) {
         account2 = new Account("ACC456", new BigDecimal("500.00"));
-        session.save(account2);
+        session.persist(account2);
         System.out.println("Created account ACC456");
       }
 
@@ -66,13 +64,11 @@ public class HibernateTransaction {
       System.out.println("Tables and sample data initialized successfully");
 
     } catch (Exception e) {
-      if (transaction != null) {
+      if (transaction != null && transaction.isActive()) {
         transaction.rollback();
       }
-      System.out.println("Error initializing database: " + e.getMessage());
+      System.err.println("Error initializing database: " + e.getMessage());
       e.printStackTrace();
-    } finally {
-      session.close();
     }
   }
 

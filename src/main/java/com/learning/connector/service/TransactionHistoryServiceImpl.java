@@ -16,18 +16,24 @@ import org.springframework.stereotype.Service;
  * @date 5/2/25
  * @file TransactionHistoryServiceImpl
  */
+
 @Service
 public class TransactionHistoryServiceImpl implements TransactionHistoryService{
 
   private static final Logger logger = LoggerFactory.getLogger(TransactionHistoryServiceImpl.class);
 
+  private final AccountService accountService;
   private final TransactionHistoryRepository transactionHistoryRepository;
+  private final RedisMonitorService redisMonitorService;
 
   @Autowired
-  public TransactionHistoryServiceImpl(TransactionHistoryRepository transactionHistoryRepository) {
+  public TransactionHistoryServiceImpl(TransactionHistoryRepository transactionHistoryRepository,
+      RedisMonitorService redisMonitorService,
+      AccountService accountService) {
     this.transactionHistoryRepository = transactionHistoryRepository;
+    this.redisMonitorService = redisMonitorService;
+    this.accountService = accountService;
   }
-
 
   @Override
   public List<TransactionHistory> getTransactionHistory(String accountNumber) {
@@ -42,19 +48,34 @@ public class TransactionHistoryServiceImpl implements TransactionHistoryService{
     logger.info("Recording transaction for account {}: {} {}",
         accountNumber, transactionType, amount);
 
-    TransactionHistory history = new TransactionHistory();
-    // Use the default constructor if available, or set these explicitly
-    history.setTransactionId(UUID.randomUUID());
-    history.setTransactionDate(LocalDate.now());
+    String customerId = getCustomerIdFromAccount(accountNumber);
+    String transactionId = UUID.randomUUID().toString();
+    String lockKey = customerId + "_" + accountNumber + "_" + transactionId;
 
-    // Set the transaction details
-    history.setAccountNumber(accountNumber);
-    history.setTransactionType(transactionType);
-    history.setAmount(amount);
-    history.setRelatedAccount(relatedAccount);
-    history.setDescription(description);
+    if (!redisMonitorService.acquireLock(customerId, accountNumber, transactionId)) {
+      logger.warn("Could not acquire lock for {}", lockKey);
+      throw new IllegalStateException("Transaction is currently locked");
+    }
 
-    // Save to Cassandra
-    return transactionHistoryRepository.save(history);
+    try {
+      TransactionHistory history = new TransactionHistory();
+      history.setTransactionId(UUID.fromString(transactionId));
+      history.setTransactionDate(LocalDate.now());
+      history.setAccountNumber(accountNumber);
+      history.setTransactionType(transactionType);
+      history.setAmount(amount);
+      history.setRelatedAccount(relatedAccount);
+      history.setDescription(description);
+
+      return transactionHistoryRepository.save(history);
+    } finally {
+      redisMonitorService.releaseLock(customerId, accountNumber, transactionId);
+      logger.info("Released lock for {}", lockKey);
+    }
   }
+
+  private String getCustomerIdFromAccount(String accountNumber) {
+    return accountService.getAccountByNumber(accountNumber).getCustomerId();
+  }
+
 }

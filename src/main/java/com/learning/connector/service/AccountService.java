@@ -9,6 +9,7 @@ import java.util.Optional;
  * @file AccountService
  */
 public interface AccountService {
-  Optional<Account> getAccountByNumber(String accountNumber);
+  Account getAccountByNumber(String accountNumber);
   Account updateAccount(Account account);
+  void deleteAccount(String accountNumber);
 }

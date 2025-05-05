@@ -1,6 +1,7 @@
 package com.learning.connector.model;
 
 import jakarta.persistence.Id;
+import java.util.List;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -16,9 +17,8 @@ public class CustomerProfile {
   @Id
   private String id;
 
-  @Field("account_number")
-  @Indexed(unique = true)
-  private String accountNumber;
+  @Field("account_numbers")
+  private List<String> accountNumbers;
 
   @Field("first_name")
   private String firstName;
@@ -32,10 +32,10 @@ public class CustomerProfile {
   public CustomerProfile() {
   }
 
-  public CustomerProfile(String id, String accountNumber, String firstName, String lastName,
+  public CustomerProfile(String id, List<String> accountNumbers, String firstName, String lastName,
       String email) {
     this.id = id;
-    this.accountNumber = accountNumber;
+    this.accountNumbers = accountNumbers;
     this.firstName = firstName;
     this.lastName = lastName;
     this.email = email;
@@ -49,12 +49,12 @@ public class CustomerProfile {
     this.id = id;
   }
 
-  public String getAccountNumber() {
-    return accountNumber;
+  public List<String> getAccountNumbers() {
+    return accountNumbers;
   }
 
-  public void setAccountNumber(String accountNumber) {
-    this.accountNumber = accountNumber;
+  public void setAccountNumbers(List<String> accountNumbers) {
+    this.accountNumbers = accountNumbers;
   }
 
   public String getFirstName() {
@@ -80,4 +80,5 @@ public class CustomerProfile {
   public void setEmail(String email) {
     this.email = email;
   }
+
 }

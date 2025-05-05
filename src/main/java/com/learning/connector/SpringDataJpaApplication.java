@@ -1,6 +1,7 @@
 package com.learning.connector;
 
 
+import com.learning.connector.exception.AccountNotFoundException;
 import com.learning.connector.model.Account;
 import com.learning.connector.model.TransactionHistory;
 import com.learning.connector.service.AccountService;
@@ -25,15 +26,19 @@ public class SpringDataJpaApplication {
     TransactionService transactionService = context.getBean(TransactionService.class);
     transactionService.transferMoney("ACC123", "ACC456", new BigDecimal("100.00"));
 
-    // Redis
-    System.out.println("First call to getAccountByNumber:");
-    AccountService accountService = context.getBean(AccountService.class);
-    Optional<Account> firstCall = accountService.getAccountByNumber("ACC123");
-    firstCall.ifPresent(account -> System.out.println("Account found: " + account.getAccountNumber() + ", Balance: " + account.getBalance()));
 
-    System.out.println("\nSecond call to getAccountByNumber:");
-    Optional<Account> secondCall = accountService.getAccountByNumber("ACC123");
-    secondCall.ifPresent(account -> System.out.println("Account found: " + account.getAccountNumber() + ", Balance: " + account.getBalance()));
+
+    // account not found exception
+    AccountService accountService = context.getBean(AccountService.class);
+    try {
+      Account firstCall = accountService.getAccountByNumber("ACC123");
+      System.out.println("Account found: " + firstCall.getAccountNumber() + ", Balance: " + firstCall.getBalance());
+    } catch (AccountNotFoundException ex) {
+      System.out.println("Account not found: " + ex.getMessage());
+    }
+
+
+
 
     // Cassandra
     TransactionHistoryService transactionHistoryService = context.getBean(TransactionHistoryService.class);

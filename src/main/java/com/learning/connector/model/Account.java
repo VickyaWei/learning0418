@@ -25,15 +25,23 @@ public class Account implements Serializable {
   @Column(name = "balance")
   private BigDecimal balance;
 
+  @Column(name = "customer_id")
+  private String customerId;
 
   public Account() {
   }
 
-  public Account(String accountNumber, BigDecimal balance){
+
+  public Account(String accountNumber, BigDecimal balance, String customerId) {
+    this.accountNumber = accountNumber;
+    this.balance = balance;
+    this.customerId = customerId;
+  }
+
+  public Account(String accountNumber, BigDecimal balance) {
     this.accountNumber = accountNumber;
     this.balance = balance;
   }
-
 
   public String getAccountNumber() {
     return accountNumber;
@@ -51,4 +59,11 @@ public class Account implements Serializable {
     this.balance = balance;
   }
 
+  public String getCustomerId() {
+    return customerId;
+  }
+
+  public void setCustomerId(String customerId) {
+    this.customerId = customerId;
+  }
 }
