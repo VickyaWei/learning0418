@@ -75,7 +75,7 @@ public class TransactionHistoryServiceImpl implements TransactionHistoryService{
   }
 
   private String getCustomerIdFromAccount(String accountNumber) {
-    return accountService.getAccountByNumber(accountNumber).getCustomerId();
+    return accountService.getAccountByNumber(accountNumber).getCustomerProfileId();
   }
 
 }

@@ -2,6 +2,7 @@ package com.learning.connector.service;
 
 import com.learning.connector.model.CustomerProfile;
 import com.learning.connector.repository.CustomerProfileRepository;
+import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,4 +26,5 @@ public class CustomerProfileServiceImpl implements CustomerProfileService{
   public Optional<CustomerProfile> findByAccountNumber(String accountNumber) {
     return customerProfileRepository.findByAccountNumber(accountNumber);
   }
+
 }

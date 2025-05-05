@@ -22,8 +22,7 @@ public class TransactionHistory {
   private String accountNumber;
 
   // Clustering column - sort by date descending
-  @PrimaryKeyColumn(name = "transaction_date", type = PrimaryKeyType.CLUSTERED,
-      ordering = Ordering.DESCENDING)
+  @PrimaryKeyColumn(name = "transaction_date", type = PrimaryKeyType.CLUSTERED, ordering = Ordering.DESCENDING)
   private LocalDate transactionDate;
 
   // Clustering column - ensure uniqueness
