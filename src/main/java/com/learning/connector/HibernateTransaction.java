@@ -1,8 +1,10 @@
 package com.learning.connector;
 
+import com.learning.connector.config.AppConfig;
 import com.learning.connector.model.Account;
 import com.learning.connector.model.CustomerProfile;
 import com.learning.connector.model.TransactionLog;
+import com.learning.connector.service.AccountCustomerService;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -12,12 +14,20 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.SimpleMongoClientDatabaseFactory;
 import com.mongodb.client.MongoClients;
 
 public class HibernateTransaction {
+
+  private static AccountCustomerService accountCustomerService;
+
   public static void main(String[] args) {
+    ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+    accountCustomerService = context.getBean(AccountCustomerService.class);
+
     // Create a session factory for PostgreSQL
     SessionFactory sessionFactory = new Configuration()
         .configure("hibernate.cfg.xml")
@@ -34,9 +44,10 @@ public class HibernateTransaction {
       // Create tables and sample data
       createTablesAndSampleData(sessionFactory, mongoTemplate);
 
+      linkAccountsUsingService();
 
       // Link the existing accounts to customers in MongoDB
-      linkExistingAccountsToCustomers(sessionFactory, mongoTemplate);
+//      linkExistingAccountsToCustomers(sessionFactory, mongoTemplate);
 
       // Now transfer money between existing accounts
       transferMoney(sessionFactory, "ACC201", "ACC101", new BigDecimal("10.00"));
@@ -46,74 +57,91 @@ public class HibernateTransaction {
     }
   }
 
-  public static void linkExistingAccountsToCustomers(SessionFactory sessionFactory, MongoTemplate mongoTemplate) {
-    Transaction transaction = null;
+  private static void linkAccountsUsingService() {
+    try {
+      // Link accounts to customers using the Spring service
+      System.out.println("Linking accounts to customers using AccountCustomerService...");
 
-    try (Session session = sessionFactory.openSession()) {
-      transaction = session.beginTransaction();
+      accountCustomerService.linkAccountToCustomer("ACC101", "CUST1");
+      accountCustomerService.linkAccountToCustomer("ACC102", "CUST1");
+      accountCustomerService.linkAccountToCustomer("ACC201", "CUST2");
+      accountCustomerService.linkAccountToCustomer("ACC202", "CUST2");
 
-      // Create two customers in MongoDB if they don't exist
-      if (!mongoTemplate.collectionExists("customer_profiles")) {
-        System.out.println("Creating customers in MongoDB...");
-
-        // Create first customer for ACC101, ACC102
-        String customer1Id = "CUST1";
-        CustomerProfile customer1 = new CustomerProfile();
-        customer1.setId(customer1Id);
-        customer1.setFirstName("John");
-        customer1.setLastName("Doe");
-        customer1.setEmail("john.doe@example.com");
-        customer1.setAccountNumbers(Arrays.asList("ACC101", "ACC102"));
-        mongoTemplate.save(customer1);
-
-        // Create second customer for ACC201, ACC202
-        String customer2Id = "CUST2";
-        CustomerProfile customer2 = new CustomerProfile();
-        customer2.setId(customer2Id);
-        customer2.setFirstName("Jane");
-        customer2.setLastName("Smith");
-        customer2.setEmail("jane.smith@example.com");
-        customer2.setAccountNumbers(Arrays.asList("ACC201", "ACC202"));
-        mongoTemplate.save(customer2);
-
-        System.out.println("Customers created in MongoDB");
-      }
-
-      // Link existing accounts to the customers
-      @SuppressWarnings("unchecked")
-      List<Account> accounts = session.createNativeQuery(
-              "SELECT * FROM accounts WHERE account_number IN ('ACC101', 'ACC102', 'ACC201', 'ACC202')",
-              Account.class)
-          .getResultList();
-
-      if (!accounts.isEmpty()) {
-        for (Account account : accounts) {
-          if ("ACC101".equals(account.getAccountNumber()) ||
-              "ACC102".equals(account.getAccountNumber())) {
-            account.setCustomerProfileId("CUST1");
-            System.out.println("Linking account " + account.getAccountNumber() + " to customer CUST1");
-          } else if ("ACC201".equals(account.getAccountNumber()) ||
-              "ACC202".equals(account.getAccountNumber())) {
-            account.setCustomerProfileId("CUST2");
-            System.out.println("Linking account " + account.getAccountNumber() + " to customer CUST2");
-          }
-          session.merge(account);
-        }
-      } else {
-        System.out.println("No existing accounts found to link");
-      }
-
-      transaction.commit();
-      System.out.println("Account linking completed");
-
+      System.out.println("Account linking completed successfully");
     } catch (Exception e) {
-      if (transaction != null && transaction.isActive()) {
-        transaction.rollback();
-      }
       System.err.println("Error linking accounts: " + e.getMessage());
       e.printStackTrace();
     }
   }
+
+//  public static void linkExistingAccountsToCustomers(SessionFactory sessionFactory, MongoTemplate mongoTemplate) {
+//    Transaction transaction = null;
+//
+//    try (Session session = sessionFactory.openSession()) {
+//      transaction = session.beginTransaction();
+//
+//      // Create two customers in MongoDB if they don't exist
+//      if (!mongoTemplate.collectionExists("customer_profiles")) {
+//        System.out.println("Creating customers in MongoDB...");
+//
+//        // Create first customer for ACC101, ACC102
+//        String customer1Id = "CUST1";
+//        CustomerProfile customer1 = new CustomerProfile();
+//        customer1.setId(customer1Id);
+//        customer1.setFirstName("John");
+//        customer1.setLastName("Doe");
+//        customer1.setEmail("john.doe@example.com");
+//        customer1.setAccountNumbers(Arrays.asList("ACC101", "ACC102"));
+//        mongoTemplate.save(customer1);
+//
+//        // Create second customer for ACC201, ACC202
+//        String customer2Id = "CUST2";
+//        CustomerProfile customer2 = new CustomerProfile();
+//        customer2.setId(customer2Id);
+//        customer2.setFirstName("Jane");
+//        customer2.setLastName("Smith");
+//        customer2.setEmail("jane.smith@example.com");
+//        customer2.setAccountNumbers(Arrays.asList("ACC201", "ACC202"));
+//        mongoTemplate.save(customer2);
+//
+//        System.out.println("Customers created in MongoDB");
+//      }
+//
+//      // Link existing accounts to the customers
+//      @SuppressWarnings("unchecked")
+//      List<Account> accounts = session.createNativeQuery(
+//              "SELECT * FROM accounts WHERE account_number IN ('ACC101', 'ACC102', 'ACC201', 'ACC202')",
+//              Account.class)
+//          .getResultList();
+//
+//      if (!accounts.isEmpty()) {
+//        for (Account account : accounts) {
+//          if ("ACC101".equals(account.getAccountNumber()) ||
+//              "ACC102".equals(account.getAccountNumber())) {
+//            account.setCustomerProfileId("CUST1");
+//            System.out.println("Linking account " + account.getAccountNumber() + " to customer CUST1");
+//          } else if ("ACC201".equals(account.getAccountNumber()) ||
+//              "ACC202".equals(account.getAccountNumber())) {
+//            account.setCustomerProfileId("CUST2");
+//            System.out.println("Linking account " + account.getAccountNumber() + " to customer CUST2");
+//          }
+//          session.merge(account);
+//        }
+//      } else {
+//        System.out.println("No existing accounts found to link");
+//      }
+//
+//      transaction.commit();
+//      System.out.println("Account linking completed");
+//
+//    } catch (Exception e) {
+//      if (transaction != null && transaction.isActive()) {
+//        transaction.rollback();
+//      }
+//      System.err.println("Error linking accounts: " + e.getMessage());
+//      e.printStackTrace();
+//    }
+//  }
 
 
   public static void createTablesAndSampleData(SessionFactory sessionFactory, MongoTemplate mongoTemplate) {

@@ -12,5 +12,6 @@ import org.springframework.data.mongodb.repository.Query;
  */
 public interface CustomerProfileRepository extends MongoRepository<CustomerProfile, String> {
   @Query("{ 'accountNumbers' : ?0 }")
+  // refer to the first element
   Optional<CustomerProfile> findByAccountNumber(String accountNumber);
 }
