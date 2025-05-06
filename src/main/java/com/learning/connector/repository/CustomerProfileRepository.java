@@ -1,17 +1,13 @@
 package com.learning.connector.repository;
 
 import com.learning.connector.model.CustomerProfile;
+import java.util.List;
 import java.util.Optional;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
+import org.springframework.stereotype.Repository;
 
-/**
- * @author vickyaa
- * @date 5/2/25
- * @file CustomerProfileRepository
- */
+@Repository
 public interface CustomerProfileRepository extends MongoRepository<CustomerProfile, String> {
-  @Query("{ 'accountNumbers' : ?0 }")
-  // refer to the first element
-  Optional<CustomerProfile> findByAccountNumber(String accountNumber);
+
 }

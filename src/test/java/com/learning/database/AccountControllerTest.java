@@ -40,7 +40,7 @@ public class AccountControllerTest {
 
     // Act & Assert
     Exception exception = assertThrows(AccountNotFoundException.class, () -> {
-      accountController.getAccount(nonExistentAccountNumber);
+      accountController.getAccountByNumber(nonExistentAccountNumber);
     });
 
     String expectedMessage = "Account with number " + nonExistentAccountNumber + " does not exist.";
