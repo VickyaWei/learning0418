@@ -21,26 +21,15 @@ public class AccountExceptionLoggingAspect {
   private static final Logger logger = LoggerFactory.getLogger(AccountExceptionLoggingAspect.class);
 
   @AfterThrowing(
-      pointcut = "execution(* com.learning.connector.service.AccountService.getAccountByNumber(..))",
+      pointcut = "execution(* com.learning.connector.service.AccountService.getAccountById(..))",
       throwing = "exception"
   )
   public void logAccountNotFoundException(JoinPoint joinPoint, AccountNotFoundException exception) {
-    String accountNumber = (String) joinPoint.getArgs()[0];
+    Integer accountId = (Integer) joinPoint.getArgs()[0];
 
-    logger.error("Account lookup failed: Account with number '{}' was not found. Error message: {}",
-        accountNumber, exception.getMessage());
+    logger.error("Account lookup failed: Account with Id '{}' was not found. Error message: {}",
+        accountId, exception.getMessage());
   }
 
-  @AfterThrowing(
-      pointcut = "execution(* com.learning.connector.exception.GlobalExceptionHandler.handleAccountNotFoundException(..))",
-      throwing = "exception"
-  )
-  public void logExceptionHandling(JoinPoint joinPoint, Exception exception) {
-    AccountNotFoundException originalException = (AccountNotFoundException) joinPoint.getArgs()[0];
-
-    logger.info(
-        "AccountNotFoundException was handled by GlobalExceptionHandler. Original exception: {}",
-        originalException.getMessage());
-  }
 }
 
