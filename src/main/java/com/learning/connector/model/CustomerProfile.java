@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
  * @file Customer
  */
 
-@Document(collection = "customer_profiles")
+@Document(collection = "customer_db")
 public class CustomerProfile {
   @Id
   private String id;

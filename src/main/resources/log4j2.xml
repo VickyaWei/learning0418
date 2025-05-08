@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+  <Properties>
+    <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight{%-5level} [%style{%t}{bright,blue}] %style{%C{1.}}{bright,yellow}: %msg%n%throwable</Property>
+    <Property name="APP_LOG_ROOT">./logs</Property>
+  </Properties>
+
+  <Appenders>
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT" follow="true">
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+    </Console>
+
+    <!-- Application Log File -->
+    <RollingFile name="ApplicationLog" fileName="${APP_LOG_ROOT}/application.log"
+      filePattern="${APP_LOG_ROOT}/application-%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="10MB"/>
+        <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
+
+    <!-- Error Log File -->
+    <RollingFile name="ErrorLog" fileName="${APP_LOG_ROOT}/error.log"
+      filePattern="${APP_LOG_ROOT}/error-%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="10MB"/>
+        <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
+
+    <!-- Database Log File -->
+    <RollingFile name="DatabaseLog" fileName="${APP_LOG_ROOT}/database.log"
+      filePattern="${APP_LOG_ROOT}/database-%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="10MB"/>
+        <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
+  </Appenders>
+
+  <Loggers>
+    <!-- Application Loggers -->
+    <Logger name="com.learning.connector" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- Controller Layer -->
+    <Logger name="com.learning.connector.controller" level="INFO" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- Service Layer -->
+    <Logger name="com.learning.connector.service" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- Repository Layer -->
+    <Logger name="com.learning.connector.repository" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+      <AppenderRef ref="DatabaseLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- Exception Handling -->
+    <Logger name="com.learning.connector.exception" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+      <AppenderRef ref="ErrorLog"/>
+    </Logger>
+
+    <!-- AOP Logging -->
+    <Logger name="com.learning.connector.aop" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+    </Logger>
+
+    <!-- Spring Framework -->
+    <Logger name="org.springframework" level="INFO" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- Spring Data MongoDB -->
+    <Logger name="org.springframework.data.mongodb" level="INFO" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- MongoDB Driver -->
+    <Logger name="com.mongodb" level="INFO" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- PostgreSQL JDBC Driver -->
+    <Logger name="org.postgresql" level="INFO" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- SQL Statements for PostgreSQL -->
+    <Logger name="org.postgresql.jdbc" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+    </Logger>
+
+    <!-- Hibernate & JPA -->
+    <Logger name="org.hibernate" level="INFO" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- Hibernate SQL -->
+    <Logger name="org.hibernate.SQL" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+    </Logger>
+
+    <!-- Hibernate SQL Parameter Binding -->
+    <Logger name="org.hibernate.type.descriptor.sql" level="TRACE" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+    </Logger>
+
+    <!-- Transaction Management -->
+    <Logger name="org.springframework.transaction" level="INFO" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="DatabaseLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Logger>
+
+    <!-- Root Logger -->
+    <Root level="INFO">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="ApplicationLog"/>
+      <AppenderRef ref="ErrorLog" level="ERROR"/>
+    </Root>
+  </Loggers>
+</Configuration>

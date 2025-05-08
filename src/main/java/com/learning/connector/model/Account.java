@@ -2,6 +2,8 @@ package com.learning.connector.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -16,13 +18,14 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 public class Account {
 
   @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id")
   private Integer id;
 
-  @Column(name = "account_number")
+  @Column(name = "account_number", unique = true, nullable = false)
   private String accountNumber;
 
-  @Column(name = "balance")
+  @Column(name = "balance", nullable = false)
   private BigDecimal balance;
 
   @Column(name = "customer_profile_id")
