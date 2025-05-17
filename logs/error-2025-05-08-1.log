@@ -1,0 +1,2 @@
+2025-05-08 18:30:28.620 [1;31mERROR[m [[1;34mhttp-nio-8080-exec-5[m] [1;33mc.l.c.s.AccountServiceImpl[m: Account with ID 1 not found
+2025-05-08 18:30:28.632 [1;31mERROR[m [[1;34mhttp-nio-8080-exec-5[m] [1;33mc.l.c.e.GlobalExceptionHandler[m: Handling AccountNotFoundException: Account not found with id: 1 for request path: uri=/api/accounts/id/1

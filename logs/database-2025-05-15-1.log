@@ -1,0 +1,1117 @@
+2025-05-15 01:13:55.694 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:13:55.703 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:13:55.703 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:13:58.922 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:13:58.925 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:13:58.925 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:14:23.857 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:14:23.861 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:14:23.861 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:14:27.887 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:14:27.888 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:14:27.889 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:14:38.230 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:14:38.232 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:14:38.232 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:14:46.687 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:14:46.691 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:14:46.691 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:14:56.921 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:14:56.923 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:14:56.923 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:15:00.301 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:15:00.303 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:15:00.303 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:15:04.762 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:15:04.763 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:15:04.763 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:15:14.439 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:15:14.440 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:15:14.440 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:43:40.757 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:43:40.762 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:43:40.762 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:43:57.758 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:43:57.762 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:43:57.762 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:09.568 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:09.570 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:09.570 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:19.032 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:19.034 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:19.035 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:24.373 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:24.374 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:24.375 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:25.596 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:25.597 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:25.597 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:30.050 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:30.053 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:30.053 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:31.304 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:31.305 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:31.305 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:35.481 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:35.482 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:35.483 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 01:44:40.097 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 01:44:40.098 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 01:44:40.099 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:09:31.867 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:09:31.869 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:09:31.870 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:09:44.750 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:09:44.752 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:09:44.752 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:09:45.586 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:09:45.587 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:09:45.587 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:09:45.657 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:09:45.658 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:09:45.658 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:09:57.273 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:09:57.277 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:09:57.278 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:09:59.854 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:09:59.855 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:09:59.856 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:10:16.794 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:10:16.796 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:10:16.797 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:10:17.380 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:10:17.381 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:10:17.381 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:10:34.347 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:10:34.348 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:10:34.349 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:10:38.702 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:10:38.703 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:10:38.703 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:38:54.441 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:38:54.448 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:38:54.449 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:08.724 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:08.726 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:08.726 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:09.163 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:09.164 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:09.164 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:12.791 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:12.792 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:12.792 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:47.703 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:47.705 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:47.706 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:51.257 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:51.258 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:51.258 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:54.521 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:54.522 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:54.522 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:55.175 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:55.176 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:55.176 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:39:57.844 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:39:57.845 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:39:57.845 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 03:40:27.402 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 03:40:27.405 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 03:40:27.406 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:25:17.631 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:25:17.633 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:25:17.633 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:25:25.764 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:25:25.764 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:25:25.765 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:25:26.757 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:25:26.758 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:25:26.758 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:25:28.952 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:25:28.956 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:25:28.957 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:25:57.972 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:25:57.975 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:25:57.976 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:26:12.735 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:26:12.737 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:26:12.737 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:26:12.986 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:26:12.987 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:26:12.987 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:26:18.638 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:26:18.639 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:26:18.640 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:26:26.463 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:26:26.465 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:26:26.465 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:27:00.099 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:27:00.104 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:27:00.105 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:54:48.008 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:54:48.012 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:54:48.012 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:54:48.942 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:54:48.943 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:54:48.943 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:54:52.812 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:54:52.813 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:54:52.813 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:55:21.417 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:55:21.420 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:55:21.421 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:55:26.359 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:55:26.359 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:55:26.360 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:55:34.964 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:55:34.965 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:55:34.966 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:55:41.546 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:55:41.547 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:55:41.547 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:55:53.814 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:55:53.815 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:55:53.816 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:56:13.078 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:56:13.081 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:56:13.081 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 04:56:54.122 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 04:56:54.124 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 04:56:54.125 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:24:15.912 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:24:15.916 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:24:15.917 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:24:41.459 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:24:41.460 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:24:41.460 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:24:43.596 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:24:43.597 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:24:43.598 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:41:23.334 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:41:23.345 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:41:23.346 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:41:34.819 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:41:34.822 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:41:34.822 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:41:37.497 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:41:37.498 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:41:37.499 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:42:02.161 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:42:02.165 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:42:02.165 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:42:03.502 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:42:03.502 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:42:03.503 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:42:05.201 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:42:05.202 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:42:05.202 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 05:52:02.411 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 05:52:02.420 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 05:52:02.420 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:51:10.967 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:51:10.971 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:51:10.972 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:51:13.032 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:51:13.033 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:51:13.033 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:51:15.400 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:51:15.401 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:51:15.401 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:51:24.425 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:51:24.427 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:51:24.427 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:51:33.008 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:51:33.009 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:51:33.009 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:51:36.152 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:51:36.152 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:51:36.153 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:51:58.267 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:51:58.271 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:51:58.272 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:52:27.643 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:52:27.645 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:52:27.645 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:52:29.534 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:52:29.534 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:52:29.535 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 06:52:57.273 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 06:52:57.275 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 06:52:57.276 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:15.562 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 07:25:18.173 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 07:25:18.214 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 07:25:18.232 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 07:25:18.516 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:18.517 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:18.517 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:18.684 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 07:25:18.695 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 07:25:18.699 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76641439) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1db565f2)
+2025-05-15 07:25:18.699 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1c0a143) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@58267ba1)
+2025-05-15 07:25:18.710 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:18.710 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:18.710 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:18.764 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:18.765 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:18.765 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:18.811 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:18.811 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:18.811 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:18.859 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:18.859 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:18.859 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:18.895 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.j.i.JCacheRegionFactory[m: HHH90001006: Missing cache[com.learning.connector.model.TransactionLog] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2025-05-15 07:25:18.907 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:18.907 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:18.908 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:18.933 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.s.s.EntityReadOnlyAccess[m: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.learning.connector.model.TransactionLog]]
+2025-05-15 07:25:18.957 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:18.957 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:18.957 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:19.009 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:19.009 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:19.010 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:19.060 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:19.060 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:19.060 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:19.113 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:25:19.114 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:25:19.114 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:25:19.207 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 07:31:44.314 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 07:31:47.177 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 07:31:47.207 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 07:31:47.224 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 07:31:47.382 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.382 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.382 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.494 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 07:31:47.504 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 07:31:47.508 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@e7ddf8d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@47f8374)
+2025-05-15 07:31:47.508 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@22a8e87b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@b8c6406)
+2025-05-15 07:31:47.576 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.576 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.576 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.640 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.641 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.641 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.696 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.696 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.696 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.718 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.j.i.JCacheRegionFactory[m: HHH90001006: Missing cache[com.learning.connector.model.TransactionLog] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2025-05-15 07:31:47.752 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.753 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.753 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.759 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.s.s.EntityReadOnlyAccess[m: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.learning.connector.model.TransactionLog]]
+2025-05-15 07:31:47.805 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.805 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.806 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.871 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.871 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.871 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.920 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.920 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.920 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:47.974 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:47.975 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:47.975 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:48.031 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 07:31:48.031 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 07:31:48.031 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 07:31:48.068 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 08:02:17.327 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:17.340 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:17.341 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:17.655 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:17.656 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:17.656 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:17.870 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:17.870 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:17.871 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:18.544 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:18.545 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:18.546 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:19.848 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:19.849 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:19.849 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:20.329 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:20.331 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:20.332 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:35.100 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:35.103 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:35.104 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:35.938 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:35.939 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:35.940 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:36.304 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:36.305 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:36.305 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:02:39.171 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:02:39.172 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:02:39.172 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:31:40.978 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:31:40.993 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:31:40.993 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:31:45.558 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:31:45.561 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:31:45.562 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:01.079 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:01.081 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:01.082 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:01.358 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:01.359 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:01.359 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:01.418 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:01.418 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:01.419 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:05.631 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:05.632 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:05.633 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:12.457 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:12.466 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:12.467 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:15.005 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:15.006 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:15.006 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:15.808 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:15.809 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:15.809 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 08:32:30.122 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 08:32:30.129 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 08:32:30.130 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:03.623 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:03.647 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:03.648 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:04.755 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:04.757 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:04.757 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:21.476 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:21.491 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:21.492 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:27.761 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:27.764 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:27.764 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:32.623 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:32.636 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:32.637 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:34.863 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:34.865 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:34.865 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:36.032 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:36.033 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:36.034 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:47.340 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:47.341 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:47.342 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:01:58.521 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:01:58.523 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:01:58.524 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:02:16.655 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:02:16.657 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:02:16.658 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:30:22.902 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:30:22.968 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:30:22.969 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:30:24.546 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:30:24.554 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:30:24.554 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:30:50.182 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:30:50.185 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:30:50.186 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:31:03.322 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:31:03.326 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:31:03.327 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:31:10.274 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:31:10.277 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:31:10.277 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:31:13.604 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:31:13.606 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:31:13.606 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:31:23.155 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:31:23.160 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:31:23.160 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:31:30.817 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:31:30.818 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:31:30.818 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:31:34.694 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:31:34.696 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:31:34.697 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:32:05.681 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:32:05.683 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:32:05.684 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:34:05.080 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 09:34:07.765 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 09:34:07.966 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 09:34:08.292 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 09:34:10.205 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 09:34:10.242 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 09:34:10.255 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3a183218) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@bd9c79e)
+2025-05-15 09:34:10.256 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@46ae23ca) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@39236f4a)
+2025-05-15 09:34:12.003 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 09:34:12.204 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.e.j.s.SqlStatementLogger[m: create table products (product_id bigint generated by default as identity, description varchar(255) not null, discount float(53), price float(53), product_name varchar(255) not null, quantity integer, special_price float(53), primary key (product_id))
+2025-05-15 09:42:15.166 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 09:42:17.294 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 09:42:17.338 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 09:42:17.361 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 09:42:18.208 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 09:42:18.259 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 09:42:18.273 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1565afbf) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@581d8e8c)
+2025-05-15 09:42:18.274 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d300ed9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4d09eb9f)
+2025-05-15 09:42:20.448 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 09:44:22.840 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 09:44:25.376 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 09:44:25.408 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 09:44:25.424 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 09:44:25.571 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:25.572 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:25.572 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:25.684 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 09:44:25.693 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 09:44:25.696 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@47f8374) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@22a8e87b)
+2025-05-15 09:44:25.697 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@b8c6406) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6bed434d)
+2025-05-15 09:44:25.750 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:25.750 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:25.750 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:25.812 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:25.812 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:25.812 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:25.858 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.j.i.JCacheRegionFactory[m: HHH90001006: Missing cache[com.learning.connector.model.TransactionLog] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2025-05-15 09:44:25.868 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:25.869 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:25.869 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:25.895 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.s.s.EntityReadOnlyAccess[m: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.learning.connector.model.TransactionLog]]
+2025-05-15 09:44:25.922 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:25.922 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:25.922 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:25.976 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:25.976 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:25.976 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:26.027 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:26.028 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:26.028 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:26.079 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:26.080 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:26.080 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:26.139 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:26.140 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:26.140 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:26.168 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 09:44:26.209 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 09:44:26.210 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 09:44:26.210 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 09:44:50.723 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 09:44:52.837 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 09:44:52.877 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 09:44:52.901 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 09:44:53.840 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 09:44:53.868 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 09:44:53.887 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@10d6bbc5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1fd5eb93)
+2025-05-15 09:44:53.887 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1565afbf) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@581d8e8c)
+2025-05-15 09:44:55.211 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 10:17:53.314 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:17:53.341 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:17:53.341 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:02.556 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:02.558 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:02.559 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:04.848 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:04.849 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:04.850 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:17.977 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:17.984 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:17.984 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:18.957 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:18.958 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:18.958 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:25.383 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:25.385 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:25.386 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:28.464 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:28.466 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:28.467 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:29.461 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:29.462 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:29.463 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:33.214 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:33.215 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:33.215 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:18:34.093 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:18:34.095 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:18:34.102 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:47:13.901 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:47:13.922 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:47:13.922 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:47:51.120 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:47:51.123 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:47:51.124 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:47:52.510 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:47:52.511 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:47:52.512 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:47:54.465 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:47:54.466 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:47:54.467 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:48:01.336 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:48:01.338 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:48:01.339 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:48:03.777 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:48:03.778 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:48:03.778 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:48:10.291 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:48:10.292 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:48:10.293 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:48:15.241 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:48:15.249 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:48:15.249 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:48:18.804 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:48:18.805 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:48:18.806 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 10:48:22.257 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 10:48:22.258 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 10:48:22.260 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:16:32.903 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:16:32.928 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:16:32.928 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:19.916 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:19.930 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:19.931 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:33.418 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:33.423 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:33.423 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:35.477 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:35.478 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:35.478 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:35.628 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:35.629 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:35.639 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:35.701 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:35.701 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:35.702 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:45.101 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:45.106 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:45.107 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:49.092 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:49.093 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:49.094 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:17:54.317 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:17:54.318 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:17:54.318 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:18:02.825 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:18:02.828 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:18:02.829 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:46:00.654 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:46:00.661 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:46:00.661 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:12.316 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:12.318 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:12.319 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:12.425 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:12.426 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:12.427 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:15.861 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:15.862 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:15.862 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:18.149 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:18.150 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:18.150 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:19.164 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:19.166 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:19.166 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:26.615 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:26.618 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:26.619 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:28.919 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:28.919 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:28.919 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:40.614 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:40.616 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:40.616 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 11:47:42.438 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 11:47:42.439 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 11:47:42.440 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:15:28.551 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:15:28.575 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:15:28.576 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:09.726 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:09.734 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:09.735 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:14.851 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:14.855 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:14.856 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:26.656 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:26.659 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:26.659 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:34.184 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:34.186 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:34.186 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:41.426 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:41.427 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:41.427 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:44.221 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:44.223 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:44.224 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:45.286 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:45.287 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:45.287 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:16:59.903 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:16:59.928 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:16:59.929 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:17:15.329 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:17:15.332 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:17:15.333 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:44:50.077 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:44:50.152 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:44:50.153 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:45:37.105 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:45:37.122 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:45:37.123 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:45:38.646 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:45:38.647 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:45:38.670 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:46:00.050 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:46:00.054 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:46:00.060 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:46:10.541 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:46:10.545 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:46:10.545 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:46:26.528 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:46:26.530 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:46:26.531 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:46:29.424 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:46:29.425 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:46:29.425 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:46:43.099 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:46:43.105 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:46:43.105 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:46:44.536 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:46:44.536 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:46:44.537 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 14:47:05.343 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 14:47:05.344 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 14:47:05.345 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:14:18.134 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:14:18.159 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:14:18.159 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:15:09.093 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:15:09.097 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:15:09.098 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:15:34.342 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:15:34.345 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:15:34.350 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:15:37.539 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:15:37.541 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:15:37.542 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:16:02.671 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:16:02.674 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:16:02.675 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:16:09.706 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:16:09.708 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:16:09.708 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:16:17.285 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:16:17.287 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:16:17.288 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:16:31.588 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:16:31.592 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:16:31.592 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:16:41.149 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:16:41.150 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:16:41.150 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:16:45.124 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:16:45.124 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:16:45.125 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:18.680 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 15:33:22.968 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 15:33:23.010 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 15:33:23.031 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 15:33:23.198 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.200 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.201 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.362 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 15:33:23.371 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 15:33:23.374 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@769a9b7a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@2d568cff)
+2025-05-15 15:33:23.374 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5003c114) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6e4bccc)
+2025-05-15 15:33:23.436 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.437 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.437 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.492 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.492 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.492 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.548 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.548 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.548 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.595 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.596 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.596 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.611 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.j.i.JCacheRegionFactory[m: HHH90001006: Missing cache[com.learning.connector.model.TransactionLog] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2025-05-15 15:33:23.645 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.646 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.646 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.677 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.s.s.EntityReadOnlyAccess[m: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.learning.connector.model.TransactionLog]]
+2025-05-15 15:33:23.710 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.711 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.711 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.773 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.774 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.774 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.831 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.831 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.831 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:23.885 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:33:23.885 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:33:23.885 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:33:24.003 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 15:55:27.271 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:55:27.308 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:55:27.309 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:56:05.691 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:56:05.698 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:56:05.698 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:56:48.141 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:56:48.144 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:56:48.145 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:56:51.999 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:56:52.000 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:56:52.001 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:03.353 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 15:57:06.353 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 15:57:06.425 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 15:57:06.444 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 15:57:06.581 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:06.581 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:06.581 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:06.679 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 15:57:06.690 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 15:57:06.694 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4f6a5cc9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5d24703e)
+2025-05-15 15:57:06.694 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4ef10d3b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@749ffdc7)
+2025-05-15 15:57:06.750 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:06.750 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:06.751 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:06.816 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:06.817 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:06.817 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:06.872 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:06.872 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:06.873 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:06.918 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.j.i.JCacheRegionFactory[m: HHH90001006: Missing cache[com.learning.connector.model.TransactionLog] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2025-05-15 15:57:06.937 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:06.937 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:06.937 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:06.954 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.s.s.EntityReadOnlyAccess[m: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.learning.connector.model.TransactionLog]]
+2025-05-15 15:57:06.996 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:06.996 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:06.997 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:07.048 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:07.048 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:07.048 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:07.104 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:07.104 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:07.104 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:07.160 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:07.160 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:07.160 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:07.210 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 15:57:07.210 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 15:57:07.210 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 15:57:07.214 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 16:09:26.419 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 16:09:30.897 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 16:09:30.930 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 16:09:30.946 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 16:09:31.091 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.091 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.091 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.214 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 16:09:31.289 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.290 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.290 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.291 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 16:09:31.298 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@49741e80) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@414d466e)
+2025-05-15 16:09:31.299 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@39acf187) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@643a73fa)
+2025-05-15 16:09:31.345 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.345 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.346 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.403 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.403 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.403 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.466 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.466 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.466 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.520 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.521 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.521 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.539 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.j.i.JCacheRegionFactory[m: HHH90001006: Missing cache[com.learning.connector.model.TransactionLog] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2025-05-15 16:09:31.575 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.s.s.EntityReadOnlyAccess[m: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.learning.connector.model.TransactionLog]]
+2025-05-15 16:09:31.581 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.581 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.581 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.632 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.633 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.633 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.682 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.682 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.682 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.745 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:09:31.745 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:09:31.745 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:09:31.846 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 16:15:02.584 [32mINFO [m [[1;34mbackground-preinit[m] [1;33mo.h.v.i.u.Version[m: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-15 16:15:05.583 [32mINFO [m [[1;34mmain[m] [1;33mo.h.j.i.u.LogHelper[m: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15 16:15:05.613 [32mINFO [m [[1;34mmain[m] [1;33mo.h.Version[m: HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-15 16:15:05.629 [32mINFO [m [[1;34mmain[m] [1;33mo.h.c.i.RegionFactoryInitiator[m: HHH000025: Second-level cache region factory [org.hibernate.cache.jcache.internal.JCacheRegionFactory]
+2025-05-15 16:15:05.781 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:05.781 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:05.781 [36mDEBUG[m [[1;34mmain[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:05.892 [33mWARN [m [[1;34mmain[m] [1;33mo.h.e.j.d.i.DialectFactoryImpl[m: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-15 16:15:05.901 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.j.e.i.JdbcEnvironmentInitiator[m: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15 16:15:05.904 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1be3a294) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@33502cfe)
+2025-05-15 16:15:05.904 [36mDEBUG[m [[1;34mmain[m] [1;33mo.h.t.d.s.s.DdlTypeRegistry[m: addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@729d1428) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@115924ba)
+2025-05-15 16:15:05.965 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:05.966 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:05.966 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.025 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.025 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.026 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.068 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.j.i.JCacheRegionFactory[m: HHH90001006: Missing cache[com.learning.connector.model.TransactionLog] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2025-05-15 16:15:06.079 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.079 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.079 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.101 [33mWARN [m [[1;34mmain[m] [1;33mo.h.c.s.s.EntityReadOnlyAccess[m: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.learning.connector.model.TransactionLog]]
+2025-05-15 16:15:06.132 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.133 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.133 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.198 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.199 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.199 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.249 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.249 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.249 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.302 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.302 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.302 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.356 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.357 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.357 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:15:06.381 [32mINFO [m [[1;34mmain[m] [1;33mo.h.e.t.j.p.i.JtaPlatformInitiator[m: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15 16:15:06.408 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:15:06.409 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:15:06.409 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:16.899 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:16.913 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:16.913 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:21.489 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:21.491 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:21.492 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:21.563 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:21.564 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:21.564 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:24.151 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:24.152 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:24.153 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:33.158 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:33.160 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:33.161 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:34.333 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:34.335 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:34.336 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:39.688 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:39.690 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:39.691 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:40.846 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:40.848 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:40.848 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:44.406 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:44.408 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:44.409 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 16:46:51.060 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 16:46:51.062 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 16:46:51.062 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:15:57.245 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:15:57.255 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:15:57.262 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:15:59.489 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:15:59.490 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:15:59.490 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:00.430 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:00.432 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:00.433 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:04.796 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:04.797 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:04.798 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:08.123 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:08.124 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:08.124 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:19.491 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:19.494 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:19.494 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:20.075 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:20.076 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:20.077 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:21.244 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:21.245 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:21.245 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:36.068 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:36.072 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:36.072 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:16:50.253 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:16:50.255 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:16:50.255 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:50:48.561 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:50:48.568 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:50:48.569 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:57:17.988 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:57:17.994 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:57:17.994 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:59:07.109 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:59:07.112 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:59:07.112 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 17:59:10.575 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 17:59:10.576 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 17:59:10.577 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 18:34:21.837 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 18:34:21.839 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 18:34:21.839 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 18:50:27.473 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 18:50:27.474 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 18:50:27.474 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 19:05:32.956 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 19:05:32.957 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 19:05:32.957 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 19:05:37.154 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 19:05:37.156 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 19:05:37.156 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 19:05:37.273 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 19:05:37.274 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 19:05:37.275 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 19:43:00.539 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 19:43:00.546 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 19:43:00.547 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:20:51.184 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:20:51.196 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:20:51.196 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:20:58.077 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:20:58.079 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:20:58.079 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:21:07.728 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:21:07.730 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:21:07.730 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:21:12.486 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:21:12.487 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:21:12.487 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:21:40.052 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:21:40.095 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:21:40.095 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:21:51.503 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:21:51.506 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:21:51.506 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:21:57.543 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:21:57.544 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:21:57.545 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:21:58.032 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:21:58.033 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:21:58.034 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:21:58.112 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:21:58.113 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:21:58.113 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 20:22:05.128 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 20:22:05.130 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 20:22:05.130 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:44:21.420 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:44:21.426 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:44:21.428 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:44:24.308 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:44:24.309 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:44:24.310 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:44:24.547 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:44:24.548 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:44:24.548 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:44:26.793 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:44:26.794 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:44:26.795 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:44:42.452 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:44:42.454 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:44:42.455 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:44:50.180 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:44:50.183 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:44:50.184 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:45:06.282 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:45:06.285 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:45:06.285 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:45:13.550 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:45:13.551 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:45:13.552 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:45:27.762 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:45:27.764 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:45:27.765 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5
+2025-05-15 21:45:41.366 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m: PostgreSQL JDBC Driver 42.7.5
+2025-05-15 21:45:41.367 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setDefaultFetchSize = 0
+2025-05-15 21:45:41.368 [36mDEBUG[m [[1;34mHikariPool-1 connection adder[m] [1;33mo.p.j.PgConnection[m:   setPrepareThreshold = 5

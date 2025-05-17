@@ -1,0 +1,14 @@
+2025-05-15 15:33:29.556 [1;31mERROR[m [[1;34mmain[m] [1;33mo.s.b.d.LoggingFailureAnalysisReporter[m: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

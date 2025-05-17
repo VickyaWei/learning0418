@@ -1,0 +1,31 @@
+2025-05-08 01:16:33.850 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m3s961ms).
+2025-05-08 02:23:08.256 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m34s404ms).
+2025-05-08 04:00:04.332 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m56s78ms).
+2025-05-08 05:08:38.795 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m34s463ms).
+2025-05-08 06:30:21.556 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m42s757ms).
+2025-05-08 06:52:56.822 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m35s270ms).
+2025-05-08 08:08:49.025 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m52s203ms).
+2025-05-08 08:21:40.317 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m51s291ms).
+2025-05-08 09:30:35.910 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m25s117ms).
+2025-05-08 10:45:49.710 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m13s374ms).
+2025-05-08 11:14:13.468 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m23s756ms).
+2025-05-08 11:48:08.815 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m55s349ms).
+2025-05-08 12:47:52.159 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m43s347ms).
+2025-05-08 13:47:21.840 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m29s681ms).
+2025-05-08 13:50:23.915 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m2s72ms).
+2025-05-08 14:20:06.507 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m12s324ms).
+2025-05-08 15:50:06.226 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m59s641ms).
+2025-05-08 17:15:36.375 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m30s151ms).
+2025-05-08 18:16:42.205 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m5s830ms).
+2025-05-08 18:29:54.061 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m11s856ms).
+2025-05-08 18:30:28.558 [32mINFO [m [[1;34mhttp-nio-8080-exec-5[m] [1;33mc.l.c.s.AccountServiceImpl[m: Retrieving account with ID: 1
+2025-05-08 18:30:28.620 [1;31mERROR[m [[1;34mhttp-nio-8080-exec-5[m] [1;33mc.l.c.s.AccountServiceImpl[m: Account with ID 1 not found
+2025-05-08 18:30:28.625 [1;31mERROR[m [[1;34mhttp-nio-8080-exec-5[m] [1;33mc.l.c.a.AccountExceptionLoggingAspect[m: Account lookup failed: Account with Id '1' was not found. Error message: Account not found with id: 1
+2025-05-08 18:30:28.632 [1;31mERROR[m [[1;34mhttp-nio-8080-exec-5[m] [1;33mc.l.c.e.GlobalExceptionHandler[m: Handling AccountNotFoundException: Account not found with id: 1 for request path: uri=/api/accounts/id/1
+2025-05-08 19:13:11.252 [33mWARN [m [[1;34mHikariPool-1 housekeeper[m] [1;33mc.z.h.p.HikariPool$HouseKeeper[m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m37s287ms).
+2025-05-08 19:54:07.094 [32mINFO [m [[1;34mSpringApplicationShutdownHook[m] [1;33mo.s.b.w.e.t.GracefulShutdown[m: Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-08 19:54:07.105 [32mINFO [m [[1;34mtomcat-shutdown[m] [1;33mo.s.b.w.e.t.GracefulShutdown[m: Graceful shutdown complete
+2025-05-08 19:54:09.311 [32mINFO [m [[1;34mSpringApplicationShutdownHook[m] [1;33mo.s.o.j.AbstractEntityManagerFactoryBean[m: Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-08 19:54:09.336 [32mINFO [m [[1;34mSpringApplicationShutdownHook[m] [1;33mo.e.c.EhcacheManager[m: Cache 'com.learning.connector.model.TransactionLog' removed from EhcacheManager.
+2025-05-08 19:54:09.357 [32mINFO [m [[1;34mSpringApplicationShutdownHook[m] [1;33mc.z.h.HikariDataSource[m: HikariPool-1 - Shutdown initiated...
+2025-05-08 19:54:09.360 [32mINFO [m [[1;34mSpringApplicationShutdownHook[m] [1;33mc.z.h.HikariDataSource[m: HikariPool-1 - Shutdown completed.

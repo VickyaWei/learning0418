@@ -1,84 +1,182 @@
 package com.learning.connector.controller;
 
+import com.learning.connector.exception.AccountNotFoundException;
+import com.learning.connector.model.Account;
 import com.learning.connector.model.CustomerProfile;
-import com.learning.connector.repository.CustomerProfileRepository;
-import java.util.List;
-import java.util.Optional;
+import com.learning.connector.service.AccountService;
+import com.learning.connector.service.CustomerProfileService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author vickyaa
- * @date 5/2/25
+ * @date 5/6/25
  * @file CustomerProfileController
  */
-
 @RestController
 @RequestMapping("/api/customers")
 public class CustomerProfileController {
-  private final CustomerProfileRepository customerProfileRepository;
+  private static Logger logger = LoggerFactory.getLogger(CustomerProfileController.class);
+  private final CustomerProfileService customerProfileService;
+  private final AccountService accountService;
 
   @Autowired
-  public CustomerProfileController(CustomerProfileRepository customerProfileRepository) {
-    this.customerProfileRepository = customerProfileRepository;
+  public CustomerProfileController(CustomerProfileService customerProfileService,
+      AccountService accountService) {
+    this.customerProfileService = customerProfileService;
+    this.accountService = accountService;
   }
 
+  // CREATE - Create a new customer profile
   @PostMapping
-  public ResponseEntity<CustomerProfile> createCustomer(@RequestBody CustomerProfile customerProfile) {
-    CustomerProfile savedCustomer = customerProfileRepository.save(customerProfile);
-    return new ResponseEntity<>(savedCustomer, HttpStatus.CREATED);
+  public ResponseEntity<CustomerProfile> createCustomerProfile(@RequestBody CustomerProfile customerProfile) {
+    CustomerProfile createdProfile = customerProfileService.createCustomerProfile(customerProfile);
+    return new ResponseEntity<>(createdProfile, HttpStatus.CREATED);
   }
+
+
+  // UPDATE - Update customer profile
+  @PutMapping("/{id}")
+  public ResponseEntity<CustomerProfile> updateCustomerProfile(
+      @PathVariable String id,
+      @RequestBody CustomerProfile profileDetails) {
+
+    CustomerProfile profile = customerProfileService.getCustomerProfileById(id);
+    if (profile == null) {
+      return ResponseEntity.notFound().build();
+    }
+
+    // Update profile details
+    if (profileDetails.getFirstName() != null) {
+      profile.setFirstName(profileDetails.getFirstName());
+    }
+    if (profileDetails.getLastName() != null) {
+      profile.setLastName(profileDetails.getLastName());
+    }
+    if (profileDetails.getEmail() != null) {
+      profile.setEmail(profileDetails.getEmail());
+    }
+
+    CustomerProfile updatedProfile = customerProfileService.updateCustomerProfile(profile);
+    return ResponseEntity.ok(updatedProfile);
+  }
+
+  // DELETE - Delete a customer profile
+  @DeleteMapping("/{id}")
+  public ResponseEntity<Void> deleteCustomerProfile(@PathVariable String id) {
+    CustomerProfile profile = customerProfileService.getCustomerProfileById(id);
+    if (profile == null) {
+      return ResponseEntity.notFound().build();
+    }
+
+    Map<String, Object> response = new HashMap<>();
+    response.put("profile", profile);
+
+    List<Account> accounts = accountService.getAccountsByCustomerProfileId(id);
+    response.put("accounts", accounts);
+    return ResponseEntity.noContent().build();
+  }
+
+  // ADD account to customer
+  @PostMapping("/{id}/accounts")
+  public ResponseEntity<Map<String, Object>> addAccountToCustomer(
+      @PathVariable String id,
+      @RequestBody Account account) {
+
+    CustomerProfile profile = customerProfileService.getCustomerProfileById(id);
+    if (profile == null) {
+      return ResponseEntity.notFound().build();
+    }
+
+    // Create the account and link it to this customer
+    account.setCustomerProfileId(id);
+    Account savedAccount = accountService.createAccount(account);
+
+    // Add the account number to the customer's list
+    List<String> accountNumbers = profile.getAccountNumbers();
+    if (accountNumbers == null) {
+      accountNumbers = new ArrayList<>();
+    }
+    accountNumbers.add(savedAccount.getAccountNumber());
+    profile.setAccountNumbers(accountNumbers);
+
+    CustomerProfile updatedProfile = customerProfileService.updateCustomerProfile(profile);
+
+    // Return both the updated profile and the new account
+    Map<String, Object> response = new HashMap<>();
+    response.put("profile", updatedProfile);
+    response.put("newAccount", savedAccount);
+
+    return new ResponseEntity<>(response, HttpStatus.CREATED);
+  }
+
+  // REMOVE account from customer
+  @DeleteMapping("/{id}/accounts/{accountNumber}")
+  public ResponseEntity<Map<String, Object>> removeAccountFromCustomer(
+      @PathVariable String id,
+      @PathVariable String accountNumber) {
+
+    CustomerProfile profile = customerProfileService.getCustomerProfileById(id);
+    if (profile == null) {
+      return ResponseEntity.notFound().build();
+    }
+
+    // Remove the account number from the customer's list
+    List<String> accountNumbers = profile.getAccountNumbers();
+    boolean accountFound = false;
+
+    if (accountNumbers != null) {
+      accountFound = accountNumbers.removeIf(accNum -> accNum.equals(accountNumber));
+      if (accountFound) {
+        profile.setAccountNumbers(accountNumbers);
+        CustomerProfile updatedProfile = customerProfileService.updateCustomerProfile(profile);
+
+        // Optionally delete the account as well
+        accountService.deleteAccountByNumber(accountNumber);
+
+        Map<String, Object> response = new HashMap<>();
+        response.put("profile", updatedProfile);
+        response.put("message", "Account removed successfully");
+
+        return ResponseEntity.ok(response);
+      }
+    }
+
+    return ResponseEntity.notFound().build();
+  }
+
 
   @GetMapping
-  public ResponseEntity<List<CustomerProfile>> getAllCustomers() {
-    List<CustomerProfile> customers = customerProfileRepository.findAll();
-    return new ResponseEntity<>(customers, HttpStatus.OK);
+  public ResponseEntity<?> getAllCustomerProfilesWithAccounts() {
+    try {
+      List<Map<String, Object>> profilesWithAccounts =
+          customerProfileService.getAllCustomerProfilesWithAccounts();
+      return ResponseEntity.ok(profilesWithAccounts);
+    } catch (Exception e) {
+      e.printStackTrace();
+      Map<String, String> error = new HashMap<>();
+      error.put("error", "Failed to retrieve customer profiles");
+      error.put("message", e.getMessage());
+      return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(error);
+    }
   }
 
   @GetMapping("/{id}")
-  public ResponseEntity<CustomerProfile> getCustomerById(@PathVariable String id) {
-    Optional<CustomerProfile> customerOpt = customerProfileRepository.findById(id);
-    return customerOpt
-        .map(customer -> new ResponseEntity<>(customer, HttpStatus.OK))
-        .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
-  }
-
-  @GetMapping("/account/{accountNumber}")
-  public ResponseEntity<CustomerProfile> getCustomerByAccountNumber(@PathVariable String accountNumber) {
-    Optional<CustomerProfile> customerOpt = customerProfileRepository.findByAccountNumber(accountNumber);
-    return customerOpt
-        .map(customer -> new ResponseEntity<>(customer, HttpStatus.OK))
-        .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
-  }
-
-  @PutMapping("/{id}")
-  public ResponseEntity<CustomerProfile> updateCustomer(@PathVariable String id, @RequestBody CustomerProfile customerProfile) {
-    if (!customerProfileRepository.existsById(id)) {
-      return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+  public ResponseEntity<Map<String, Object>> getCustomerProfileWithAccounts(@PathVariable String id) {
+    Map<String, Object> profileWithAccounts =
+        customerProfileService.getCustomerProfileWithAccounts(id);
+    if (profileWithAccounts == null) {
+      return ResponseEntity.notFound().build();
     }
-
-    customerProfile.setId(id);
-    CustomerProfile updatedCustomer = customerProfileRepository.save(customerProfile);
-    return new ResponseEntity<>(updatedCustomer, HttpStatus.OK);
+    return ResponseEntity.ok(profileWithAccounts);
   }
-
-  @DeleteMapping("/{id}")
-  public ResponseEntity<Void> deleteCustomer(@PathVariable String id) {
-    if (!customerProfileRepository.existsById(id)) {
-      return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-    }
-
-    customerProfileRepository.deleteById(id);
-    return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-  }
-
 }

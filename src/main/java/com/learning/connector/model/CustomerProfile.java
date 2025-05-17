@@ -1,6 +1,7 @@
 package com.learning.connector.model;
 
 import jakarta.persistence.Id;
+import java.util.ArrayList;
 import java.util.List;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -29,16 +30,25 @@ public class CustomerProfile {
   @Field("email")
   private String email;
 
+  @Field("password")
+  private String password;
+
+  @Field("roles")
+  private List<String> roles = new ArrayList<>();
+
+
   public CustomerProfile() {
   }
 
   public CustomerProfile(String id, List<String> accountNumbers, String firstName, String lastName,
-      String email) {
+      String email, String password, List<String> roles) {
     this.id = id;
     this.accountNumbers = accountNumbers;
     this.firstName = firstName;
     this.lastName = lastName;
     this.email = email;
+    this.password = password;
+    this.roles = roles;
   }
 
   public String getId() {
@@ -81,4 +91,19 @@ public class CustomerProfile {
     this.email = email;
   }
 
+  public String getPassword() {
+    return password;
+  }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
+
+  public List<String> getRoles() {
+    return roles;
+  }
+
+  public void setRoles(List<String> roles) {
+    this.roles = roles;
+  }
 }

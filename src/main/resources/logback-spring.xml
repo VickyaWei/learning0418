@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <!-- Include Spring Boot's default configuration -->
+  <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+
+  <!-- Console appender for local development -->
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+      <charset>utf8</charset>
+    </encoder>
+  </appender>
+
+  <!-- Splunk HTTP appender using logstash encoder -->
+  <appender name="SPLUNK" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>logs/splunk-formatted.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>logs/splunk-formatted-%d{yyyy-MM-dd}.log</fileNamePattern>
+      <maxHistory>7</maxHistory>
+    </rollingPolicy>
+    <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+      <includeMdc>true</includeMdc>
+      <customFields>{"application":"spring-boot-app","environment":"${ENVIRONMENT:-development}"}</customFields>
+    </encoder>
+  </appender>
+
+  <!-- Async wrapper for Splunk appender for better performance -->
+  <appender name="ASYNC_SPLUNK" class="ch.qos.logback.classic.AsyncAppender">
+    <appender-ref ref="SPLUNK" />
+    <queueSize>512</queueSize>
+    <discardingThreshold>0</discardingThreshold>
+  </appender>
+
+  <!-- Root logger configuration -->
+  <root level="INFO">
+    <appender-ref ref="CONSOLE" />
+    <appender-ref ref="ASYNC_SPLUNK" />
+  </root>
+
+  <!-- Application-specific loggers -->
+  <logger name="com.learning" level="DEBUG" />
+</configuration>
